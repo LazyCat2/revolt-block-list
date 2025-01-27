@@ -1,5 +1,5 @@
 const onReady = ()=>{
-	const token = localStorage.getItem("token") || prompt("Enter you revolt token")
+	const token = localStorage.getItem("token") || prompt("Enter your revolt token")
 	if (!token) {
 		alert("token is not entered")
 		window.location.reload()
