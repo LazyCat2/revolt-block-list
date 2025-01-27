@@ -74,14 +74,6 @@ const onReady = ()=>{
 			document.append(document.createTextNode("No one had blocked you"))
 		}
 	};
-	
-	socket.onclose = function(event) {
-	  // Handle connection close
-	};
-	
-	function sendMessage(message) {
-	  socket.send(message);
-	}
 }
 
 if (document.readyState === "loading") {
